@@ -1,4 +1,37 @@
 .img-max {
   max-width: 500px;
+    width:100%;
+}
+
+.img-mid {
+  max-width: 400px;
   width:100%;
+
+}
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+
+@media (max-height: 600px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+
+  }
+  .img-mid {
+  max-height:200px;
+  max-width: 200px;
+
+  }
+
+  .img-max {
+    max-width: 400px;
+    max-height: 400px;
+  }
 }
